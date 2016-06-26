@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.1.1 (2016-06-26)
+------------------
+
+* increased body font size
+
+* removed background color of widgets (to make backround images visible)
+
+
 1.1.0 (2016-06-23)
 ------------------
 

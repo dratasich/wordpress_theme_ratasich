@@ -7,4 +7,4 @@ Theme for Ratasich Website, derived from ultrabootstrap 1.0.8
 
 * colors
 * footer menu
-* nice testimonial style
+* nicer testimonial slider style

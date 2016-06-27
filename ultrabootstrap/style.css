@@ -42,6 +42,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Media
 	## Captions
 	## Galleries
+# Testimonials
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -961,4 +962,34 @@ footer ul{margin:0; }
 	ul{margin: 0; padding-left: 15px;}
 
 
+}
+
+/*--------------------------------------------------------------
+# Testimonials
+--------------------------------------------------------------*/
+
+.testimonials-widget-testimonial {
+/*
+	max-width: 700px;
+	margin: auto;
+*/
+}
+
+.testimonials-widget-testimonial .image {
+	float: left;
+}
+
+.testimonials-widget-testimonial img {
+	/* size */
+	width: 100px;
+	height: 100px;
+	/* round image with thin border */
+	border: 5px solid #ddd;
+	border-radius: 50%;
+}
+
+.testimonials-widget-testimonial blockquote {
+	overflow: auto;
+	quotes: none;
+	border: transparent;
 }

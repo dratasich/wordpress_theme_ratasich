@@ -1,6 +1,14 @@
 Changelog
 =========
 
+1.1.3 (2016-06-28)
+------------------
+
+* footer (copyright and some links)
+
+* colors (bredal-red)
+
+
 1.1.2 (2016-06-27)
 ------------------
 

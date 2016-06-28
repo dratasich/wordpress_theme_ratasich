@@ -553,6 +553,16 @@ a:active {
 	width: 50%;
 }
 
+.menu-footer-container {
+	display: inline-block;
+}
+
+#menu-footer li {
+	display: inline-block;
+	padding: 0px 5px;
+	border-left: solid 1px #666;
+}
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -902,7 +912,7 @@ header .navbar-default .navbar-nav li a{font-weight: 400;text-transform:uppercas
 
 footer{background-color: #fff;padding: 15px 0;font-size: 0.8em;}
 footer .social a{font-size: 15px;}
-footer ul{margin:0; }
+footer ul{margin:0; padding:0;}
 
 
 /*inside page*/

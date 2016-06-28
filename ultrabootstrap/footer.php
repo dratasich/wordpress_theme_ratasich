@@ -22,7 +22,8 @@
                     $show_social_in_footer = get_theme_mod('socialicon_display' );
                     {?>   
 			        <div class="pull-left">
-				            <ul class="list-inline social">
+				  <div class="menu-footer-container">
+				  <ul class="list-inline social">
 	                            <?php 
 	                            $facebook =  esc_url(get_theme_mod ('facebook_textbox'));
 	                            $twitter = esc_url(get_theme_mod('twitter_textbox'));
@@ -48,13 +49,29 @@
 	                            if($pinterest){?>
 	                              <li><a href="<?php echo $pinterest;?>"><i class="fa fa-pinterest"></i></a></li>
 	                            <?php }?>
-                        	</ul>
-					</div>
-				<?php }?> 
-				
-			    <div class="pull-right">
-			        <a href="http://wordpress.org">Proudly powered by Wordpress</a> | Theme: Ultrabootstrap by <a href="http://thebootstrapthemes.com">The Bootstrap Themes</a>
+                        	  </ul>
+				<?php }?>
+				</div>
+
+				<?php wp_nav_menu( array( 'menu' => 'footer', 'theme_location' => 'secondary' ) ); ?>
 			      </div>
+
+			      <div class="pull-right">
+			        <!-- TODO: languages -->
+			      </div>
+
+			    </div>
+
+			    <div class="container">
+
+			      <div class="pull-left">
+			      	Copyright &copy; 2016 Valentin Ratasich e.U. Alle Rechte vorbehalten.
+			      </div>
+				
+			      <div class="pull-right">
+			        Powered by <a href="http://wordpress.org">Wordpress</a> | Theme based on: Ultrabootstrap by <a href="http://thebootstrapthemes.com">The Bootstrap Themes</a>
+			      </div>
+
 			    </div>
 
 		</footer>

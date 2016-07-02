@@ -1,6 +1,16 @@
 Changelog
 =========
 
+1.1.4 (2016-07-02)
+------------------
+
+* feature style
+
+* colors (buttons)
+
+* remove testimonial margin
+
+
 1.1.3 (2016-06-28)
 ------------------
 

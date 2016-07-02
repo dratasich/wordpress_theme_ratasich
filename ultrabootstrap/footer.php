@@ -65,7 +65,7 @@
 			    <div class="container">
 
 			      <div class="pull-left">
-			      	Copyright &copy; 2016 Valentin Ratasich e.U. Alle Rechte vorbehalten.
+			      	&copy; 2016 Valentin Ratasich e.U. All rights reserved.
 			      </div>
 				
 			      <div class="pull-right">

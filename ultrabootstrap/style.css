@@ -300,7 +300,7 @@ i {
 }
 
 blockquote {
-	margin: 0 1.5em;
+	margin: 0;
 }
 
 address {
@@ -861,7 +861,7 @@ header .navbar-form .search-box{position: absolute;right: 0;}
 header .navbar-form .search-box .well{border: none;border-radius: 0;padding: 10px;background: #fff;width: 250px;}
 header .navbar-form .search-box .well input{border: 0;border-radius: 0;background: #ddd;color: #000;font-size: 0.8em;width: 100%;box-shadow: none;padding: 10px;}
 header .navbar-form .nav{margin:0;}
-header .navbar-default{background:none;border-bottom: 4px solid #DC0202;margin: 0;background:#fff;}
+header .navbar-default{background:none;border-bottom: 2px solid #DC0202;margin: 0;background:#fff;}
 header .navbar-default .navbar-nav li a{font-weight: 400;text-transform:uppercase;letter-spacing: 2px;font-size: 0.8em;line-height: 30px;}
 .navbar-nav>li>.dropdown-menu{border:none;border-radius: 0;padding: 0;}
 .navbar-right .dropdown-menu{right: auto;left: 0;box-shadow: none;}
@@ -975,10 +975,18 @@ footer ul{margin:0; padding:0;}
 }
 
 /*--------------------------------------------------------------
+# Button overwrites
+--------------------------------------------------------------*/
+
+.btn-danger {background-color: #dc0202;}
+.btn-danger:hover {background-color: #b20000; border-color: #b20000;}
+
+/*--------------------------------------------------------------
 # Testimonials
 --------------------------------------------------------------*/
 
 .testimonials-widget-testimonial {
+	margin: 0;
 /*
 	max-width: 700px;
 	margin: auto;
@@ -1002,4 +1010,39 @@ footer ul{margin:0; padding:0;}
 	overflow: auto;
 	quotes: none;
 	border: transparent;
+}
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+
+.feature {
+	border: 1px solid #e7e7e7;
+	border-radius: 10px;
+}
+
+.feature img {
+	display: block;
+	margin: auto;
+	padding: 10px;
+	max-width: 150px;
+	max-height: 150px;
+}
+
+.feature h1 {
+	display: block;
+	padding: 10px;
+	text-align: center;
+	background-color: #e7e7e7;
+}
+
+.feature p {
+	margin: 10px;
+	text-align: justify;
+}
+
+/* SiteOrigin Widget Features */
+
+.sow-features-feature h5 {
+	font-size: 1.5em;
 }

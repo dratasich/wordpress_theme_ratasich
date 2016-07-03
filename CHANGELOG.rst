@@ -8,6 +8,8 @@ Changelog
 
 * image border
 
+* add google analytics
+
 
 1.1.4 (2016-07-02)
 ------------------

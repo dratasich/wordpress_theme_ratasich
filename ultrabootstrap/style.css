@@ -1058,3 +1058,14 @@ div.wpcf7-mail-sent-ok {border: 0; background-color: #47d147; color: #666;}
 .sow-features-feature h5 {
 	font-size: 1.5em;
 }
+
+/*--------------------------------------------------------------
+# Header Image
+--------------------------------------------------------------*/
+
+.header-image-text {
+	display: block;
+	float: left;
+	padding: 15px;
+	background: rgba(255,255,255,0.5);
+}

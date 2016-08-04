@@ -1,6 +1,12 @@
 Changelog
 =========
 
+1.1.6 (2016-08-04)
+------------------
+
+* background style for text in header images
+
+
 1.1.5 (2016-07-03)
 ------------------
 

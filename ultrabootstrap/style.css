@@ -558,9 +558,7 @@ a:active {
 }
 
 #menu-footer li {
-	display: inline-block;
-	padding: 0px 5px;
-	border-left: solid 1px #666;
+	list-style: none;
 }
 
 /*--------------------------------------------------------------
@@ -1069,3 +1067,13 @@ div.wpcf7-mail-sent-ok {border: 0; background-color: #47d147; color: #666;}
 	padding: 15px;
 	background: rgba(255,255,255,0.5);
 }
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer{background-color:#333; color:#c4c4c4; font-size:0.9em;}
+footer h3 {font-weight: 500;}
+footer a,a:visited {color:#ff5757;}
+footer a:hover {color:#dc0202;}
+footer .line {clear: both; margin: 20px 0px; border-top:#666 1px solid;}

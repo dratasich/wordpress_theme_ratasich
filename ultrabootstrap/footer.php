@@ -52,8 +52,6 @@
                         	  </ul>
 				<?php }?>
 				</div>
-
-				<?php wp_nav_menu( array( 'menu' => 'footer', 'theme_location' => 'secondary' ) ); ?>
 			      </div>
 
 			      <div class="pull-right">
@@ -63,9 +61,34 @@
 			    </div>
 
 			    <div class="container">
+			      <div class="col-sm-3">
+				<?php wp_nav_menu( array( 'menu' => 'footer', 'theme_location' => 'secondary' ) ); ?>
+			      </div>
+			      <div class="col-sm-3">
+				<p>
+				  Valentin Ratasich e.U.<br/>
+				  Hauptstraße 92<br/>
+				  7304 Nebersdorf
+				</p>
+			      </div>
+			      <div class="col-sm-3">
+				<p>
+				  T: +43 (0) 2614 2317<br/>
+				  E: <a href="mailto:office@bredal.at">office@bredal.at</a>
+				</p>
+			      </div>
+			      <div class="col-sm-3">
+				<b>Öffnungszeiten</b><br/>
+				Mo-Fr., 08:00 - 17:00 Uhr
+			      </div>
+
+			      <div class="line"></div>
+			    </div>
+
+			    <div class="container">
 
 			      <div class="pull-left">
-			      	&copy; 2016 Valentin Ratasich e.U. All rights reserved.
+			      	Copyright &copy; 2016 Valentin Ratasich e.U. All rights reserved.
 			      </div>
 				
 			      <div class="pull-right">

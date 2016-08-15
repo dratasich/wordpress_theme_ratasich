@@ -1077,3 +1077,51 @@ footer h3 {font-weight: 500;}
 footer a,a:visited {color:#ff5757;}
 footer a:hover {color:#dc0202;}
 footer .line {clear: both; margin: 20px 0px; border-top:#666 1px solid;}
+
+/*--------------------------------------------------------------
+# Crelly Slider
+--------------------------------------------------------------*/
+
+
+.crellyslider a {color: #d20202;}
+.crellyslider a:hover {color: #d20202;}
+.crellyslider > .cs-preloader > .cs-loader > .cs-spinner, .crellyslider > .cs-preloader > .cs-loader > .cs-spinner:before, .crellyslider > .cs-preloader > .cs-loader > .cs-spinner:after {background-color: #d20202;}
+
+.crellyslider > .cs-controls > .cs-previous,
+.crellyslider > .cs-controls > .cs-next {
+	width: 30px;
+	height: 30px;
+	box-shadow: none;
+	background-image: none;
+	background-color: #dc0202;
+	opacity: 0.5;
+	color: #fff;
+	text-align: center;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: 2em;
+}
+
+.crellyslider > .cs-controls > .cs-previous:hover,
+.crellyslider > .cs-controls > .cs-next:hover {
+	opacity: 1;
+}
+
+.crellyslider > .cs-controls > .cs-previous:before {
+	content: "\f104"; /* fa-angle-left */
+}
+
+.crellyslider > .cs-controls > .cs-next:before {
+	content: "\f105"; /* fa-angle-right */
+}
+
+.crellyslider > .cs-navigation > .cs-slide-link {
+	box-shadow: none;
+	border: 2px solid #c4c4c4;
+	border-radius: 50%;
+	opacity: 1;
+}
+
+.crellyslider > .cs-navigation > .cs-slide-link.cs-active {
+	border-color: #dc0202;
+	background-color: #dc0202;
+}

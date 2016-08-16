@@ -1082,7 +1082,6 @@ footer .line {clear: both; margin: 20px 0px; border-top:#666 1px solid;}
 # Crelly Slider
 --------------------------------------------------------------*/
 
-
 .crellyslider a {color: #d20202;}
 .crellyslider a:hover {color: #d20202;}
 .crellyslider > .cs-preloader > .cs-loader > .cs-spinner, .crellyslider > .cs-preloader > .cs-loader > .cs-spinner:before, .crellyslider > .cs-preloader > .cs-loader > .cs-spinner:after {background-color: #d20202;}
@@ -1124,4 +1123,40 @@ footer .line {clear: both; margin: 20px 0px; border-top:#666 1px solid;}
 .crellyslider > .cs-navigation > .cs-slide-link.cs-active {
 	border-color: #dc0202;
 	background-color: #dc0202;
+}
+
+/*--------------------------------------------------------------
+# Logo Carousel (kiwi)
+--------------------------------------------------------------*/
+
+.bx-wrapper .bx-controls-direction a {
+	width: 30px;
+	height: 30px;
+	margin-top: -15px;
+	border-radius: 50%;
+	background: none;
+	background-color: #dc0202;
+	opacity: 0.5;
+	color: #fff;
+	text-align: center;
+	font: normal normal normal 30px/1 FontAwesome;
+}
+
+.bx-wrapper .bx-prev:hover,
+.bx-wrapper .bx-next:hover {
+	background: none;
+	background-color: #dc0202;
+	opacity: 1;
+}
+
+.bx-wrapper .bx-prev:after {
+	content: "\f104";
+	float: left;
+	text-indent: 9px;
+}
+
+.bx-wrapper .bx-next:after {
+	content: "\f105";
+	float: left;
+	text-indent: 11px;
 }

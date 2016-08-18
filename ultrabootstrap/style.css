@@ -830,8 +830,9 @@ object {
 body{font:300 17px/26px Roboto;color: #666;background-color: #fff;margin-top: 55px;}
 .btn{color: #fff !important;border-radius: 0;border:none;text-transform: uppercase;font-size: 0.8em;letter-spacing: 2px;padding:5px 25px;}
 a,a:visited{color:#DC0202;text-decoration: none;}
-a:hover{color: #333;}
-img,input,.btn,a,a:hover,a:active,a:focus,div{text-decoration: none;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;outline:0 ;}
+a:hover{color:#b20000;}
+img,input,.btn,a,a:hover,a:active,a:focus{text-decoration: none;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-ms-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;outline:0 ;}
+div{text-decoration:none;outline:0;}
 
 h1,h2,h3,h4,h5,h6{font-weight: 300;margin: 0;}
 h1{font-size: 2.5em;}
@@ -973,13 +974,17 @@ footer ul{margin:0; padding:0;}
 }
 
 /*--------------------------------------------------------------
-# Button, image and plugin overwrites
+# Button, image overwrites
 --------------------------------------------------------------*/
 
 .btn-danger {background-color: #dc0202;}
 .btn-danger:hover {background-color: #b20000; border-color: #b20000;}
 
-img {border: 5px solid #ddd; border-radius: 10px;}
+.roundborder, .wp-post-image {border: 5px solid #ddd; border-radius: 10px;}
+
+/*--------------------------------------------------------------
+# Contact Form 7
+--------------------------------------------------------------*/
 
 input[type="text"], input[type="email"], textarea {font-size: 1em; width: 90%;}
 
@@ -1065,7 +1070,7 @@ div.wpcf7-mail-sent-ok {border: 0; background-color: #47d147; color: #666;}
 	display: block;
 	float: left;
 	padding: 15px;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.7);
 }
 
 /*--------------------------------------------------------------

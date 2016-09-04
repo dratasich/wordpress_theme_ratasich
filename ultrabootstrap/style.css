@@ -847,7 +847,7 @@ a.readmore{font-size: 0.8em;text-transform: uppercase;letter-spacing: 3px;}
 
 
 /*header*/
-header .logo-tag{margin:5px 0;}
+header .logo-tag{margin:0;}
 header .logo-tag h1{margin:6px 0;font-size: 1.5em;}
 header .logo-tag h1 a:hover{text-decoration: none;}
 header .logo-tag h2{margin: 0;color:#666;font-size: 0.8em;font-weight: 300;letter-spacing: 2px;text-transform: uppercase;}
@@ -860,7 +860,7 @@ header .navbar-form .search-box{position: absolute;right: 0;}
 header .navbar-form .search-box .well{border: none;border-radius: 0;padding: 10px;background: #fff;width: 250px;}
 header .navbar-form .search-box .well input{border: 0;border-radius: 0;background: #ddd;color: #000;font-size: 0.8em;width: 100%;box-shadow: none;padding: 10px;}
 header .navbar-form .nav{margin:0;}
-header .navbar-default{background:none;border-bottom: 2px solid #DC0202;margin: 0;background:#fff;}
+header .navbar-default{background:none;border-bottom: 1px solid #dc0202;margin: 0;background:#fff;}
 header .navbar-default .navbar-nav li a{font-weight: 400;text-transform:uppercase;letter-spacing: 2px;font-size: 0.8em;line-height: 30px;}
 .navbar-nav>li>.dropdown-menu{border:none;border-radius: 0;padding: 0;}
 .navbar-right .dropdown-menu{right: auto;left: 0;box-shadow: none;}

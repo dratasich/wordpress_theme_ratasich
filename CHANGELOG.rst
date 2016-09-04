@@ -1,6 +1,15 @@
 Changelog
 =========
 
+
+unreleased
+----------
+
+* fix image border
+
+* update navbar style (border and logo height)
+
+
 1.1.9 (2016-08-16)
 ------------------
 

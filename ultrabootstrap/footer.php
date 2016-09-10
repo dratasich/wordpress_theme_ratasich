@@ -79,7 +79,7 @@
 			      </div>
 			      <div class="col-sm-3">
 				<b>Öffnungszeiten</b><br/>
-				Mo-Fr., 08:00 - 17:00 Uhr
+				Mo - Fr., 08:00 - 12:00, 13:00 - 17:00 Uhr
 			      </div>
 
 			      <div class="line"></div>
@@ -88,11 +88,12 @@
 			    <div class="container">
 
 			      <div class="pull-left">
-			      	Copyright &copy; 2016 Valentin Ratasich e.U. All rights reserved.
+			      	&copy; 2016 Valentin Ratasich e.U. All rights reserved.
 			      </div>
 				
 			      <div class="pull-right">
-			        Powered by <a href="http://wordpress.org">Wordpress</a> | Theme based on: Ultrabootstrap by <a href="http://thebootstrapthemes.com">The Bootstrap Themes</a>
+			        <a href="www.bredal.at/wordpress/impressum">Impressum</a>&nbsp;|&nbsp;
+                                <a href="www.bredal.at/wordpress/datenschutzerklaerung">Datenschutzerklärung</a>
 			      </div>
 
 			    </div>
@@ -105,6 +106,9 @@
 
 
 		<!-- google analytics -->
+                <?php
+                if ( function_exists('cookie_accepted' && cookie_accepted() ) {
+                ?>
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -118,6 +122,8 @@
 		  })();
 
 		</script>
-
+                <?php
+                }
+                ?>
 	</body>
 </html>

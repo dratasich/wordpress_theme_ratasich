@@ -2,8 +2,12 @@ Changelog
 =========
 
 
-unreleased
-----------
+1.1.10 (2016-09-10)
+-------------------
+
+* add accepted-cookie check
+
+* change footer
 
 * fix image border
 

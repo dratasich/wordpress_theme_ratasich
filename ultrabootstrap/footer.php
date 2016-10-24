@@ -62,12 +62,15 @@
 
 			    <div class="container">
 			      <div class="col-sm-3">
+                                <p>
 				<?php wp_nav_menu( array( 'menu' => 'footer', 'theme_location' => 'secondary' ) ); ?>
+
+                                </p>
 			      </div>
 			      <div class="col-sm-3">
 				<p>
 				  Valentin Ratasich e.U.<br/>
-				  Hauptstraße 92<br/>
+				  Hauptstraße 115<br/>
 				  7304 Nebersdorf
 				</p>
 			      </div>
@@ -105,10 +108,10 @@
 		<?php wp_footer(); ?>
 
 
-		<!-- google analytics -->
                 <?php
-                if ( function_exists('cookie_accepted' && cookie_accepted() ) {
+                if ( function_exists('cookie_accepted') && cookie_accepted() ) :
                 ?>
+		<!-- google analytics -->
 		<script type="text/javascript">
 
 		  var _gaq = _gaq || [];
@@ -123,7 +126,7 @@
 
 		</script>
                 <?php
-                }
+                endif;
                 ?>
 	</body>
 </html>
